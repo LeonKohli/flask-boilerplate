@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 768px) {
+  .navbar a {
+    font-size: 1.2em !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.8rem !important;
+  }
+}
+
+
+html {
+  scroll-behavior: smooth !important;
+  font-size: 100% !important;
+}

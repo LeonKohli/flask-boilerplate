@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block page_title %}Home - My Flask App{% endblock %}
+
+{% block meta_description %}Welcome to My Flask App. Discover the latest news, articles, and more!{% endblock %}
+
+{% block meta_keywords %}home, Flask, My Flask App, latest news{% endblock %}
+
+{% block og_title %}Home - My Flask App{% endblock %}
+{% block og_description %}The official homepage for My Flask App. Dive in to explore!{% endblock %}
+{% block og_site_name %}My Flask App{% endblock %}
+{% block og_image %}{{ url_for('static', filename='img/home_og_image.jpg') }}{% endblock %}
+
+{% block content %}
+    <section class="px-4 py-5">
+        <h1 class="mb-4 text-xl font-bold text-red-400">Welcome to My Flask App</h1>
+        <p>Discover the latest news, amazing articles, and much more! Feel free to explore and don't hesitate to reach out if you have any questions.</p>
+    </section>
+{% endblock %}
+
+{% block head %}
+    <!-- You can add any additional styles or meta tags specific to this page -->
+{% endblock %}
